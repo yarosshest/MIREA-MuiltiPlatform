@@ -1,0 +1,22 @@
+\documentclass[14pt,a4paper,oneside]{extarticle}
+
+\usepackage{../Settings/style}
+\graphicspath{{./img}}
+
+\date{\today}
+
+%\titlespacing*{\section}
+%{0pt}{5.5ex plus 1ex minus .2ex}{3.3ex plus .2ex}
+
+\begin{document}
+    \renewcommand{\figurename}{Рисунок}
+    \renewcommand{\contentsname}{Содержание}
+    \renewcommand{\bibname}{Список литературы}
+
+    \include{title}
+    \tableofcontents
+
+    \clearpage
+    \include{report}
+
+\end{document}
